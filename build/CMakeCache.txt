@@ -331,7 +331,7 @@ DTC:FILEPATH=DTC-NOTFOUND
 // parameter. These settings will override the settings in the
 // board's .dts file. Multiple files may be listed, e.g. DTC_OVERLAY_FILE="dts1.overlay
 // dts2.overlay"
-DTC_OVERLAY_FILE:STRING=
+DTC_OVERLAY_FILE:STRING=C:/Projects/zephyrproject/template_zephyr/boards/nucleo_h723zg.overlay
 
 //Path to a program.
 GEN_KOBJECT_LIST:FILEPATH=C:/Projects/zephyrproject/zephyr/scripts/build/gen_kobject_list.py
@@ -547,7 +547,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=151
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=156
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -618,6 +618,4 @@ _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;11;5;64;<none>;cp311-win_amd64
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=0b089560d115974beb8f1736ef4d89ba
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
-//Test check_fmacro_prefix_map_C__Projects_zephyrproject_template_zephyr_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem__c__zephyr_sdk_zephyr_zephyr_sdk_0_17_3_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__zephyr_sdk_zephyr_zephyr_sdk_0_17_3_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd
-check_fmacro_prefix_map_C__Projects_zephyrproject_template_zephyr_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem__c__zephyr_sdk_zephyr_zephyr_sdk_0_17_3_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__zephyr_sdk_zephyr_zephyr_sdk_0_17_3_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd:INTERNAL=1
 

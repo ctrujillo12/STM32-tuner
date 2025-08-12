@@ -13,6 +13,7 @@ cmake:
      - 'C:/Projects/zephyrproject/zephyr/dts/bindings'
     files:
      - 'C:/Projects/zephyrproject/zephyr/boards/st/nucleo_h723zg/nucleo_h723zg.dts'
+     - 'C:/Projects/zephyrproject/template_zephyr/boards/nucleo_h723zg.overlay'
     include-dirs:
      - 'C:/Projects/zephyrproject/modules/hal/ambiq/dts'
      - 'C:/Projects/zephyrproject/modules/hal/atmel/include'
@@ -39,6 +40,8 @@ cmake:
      - 'C:/Projects/zephyrproject/zephyr/dts/arm'
      - 'C:/Projects/zephyrproject/zephyr/dts/arc'
      - 'C:/Projects/zephyrproject/zephyr/dts'
+    user-files:
+     - 'C:/Projects/zephyrproject/template_zephyr/boards/nucleo_h723zg.overlay'
   kconfig:
     files:
      - 'C:/Projects/zephyrproject/zephyr/boards/st/nucleo_h723zg/nucleo_h723zg_defconfig'

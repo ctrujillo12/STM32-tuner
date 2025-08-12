@@ -37,4 +37,5 @@ empty_file.o: C:/Projects/zephyrproject/zephyr/misc/empty_file.c \
  C:/Projects/zephyrproject/zephyr/include/zephyr/dt-bindings/pinctrl/stm32-pinctrl.h \
  C:/Projects/zephyrproject/zephyr/include/zephyr/dt-bindings/pinctrl/stm32-pinctrl-common.h \
  C:/Projects/zephyrproject/zephyr/boards/st/nucleo_h723zg/arduino_r3_connector.dtsi \
- C:/Projects/zephyrproject/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h
+ C:/Projects/zephyrproject/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h \
+ C:/Projects/zephyrproject/template_zephyr/boards/nucleo_h723zg.overlay

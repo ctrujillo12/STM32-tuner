@@ -50,6 +50,14 @@ events:
         mode: "config"
         reason: "no_exist"
       -
+        path: "C:/Projects/zephyrproject/.git/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Projects/zephyrproject/.git/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
         path: "C:/Projects/zephyrproject/.west/ZephyrBuildConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -4955,37 +4963,6 @@ events:
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCCompilerFlag.cmake:105 (cmake_check_compiler_flag)"
-      - "C:/Projects/zephyrproject/zephyr/cmake/modules/extensions.cmake:2336 (check_c_compiler_flag)"
-      - "C:/Projects/zephyrproject/zephyr/cmake/modules/extensions.cmake:1195 (check_compiler_flag)"
-      - "C:/Projects/zephyrproject/zephyr/cmake/modules/extensions.cmake:2375 (zephyr_check_compiler_flag)"
-      - "C:/Projects/zephyrproject/zephyr/cmake/modules/extensions.cmake:2351 (target_cc_option_fallback)"
-      - "C:/Projects/zephyrproject/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
-      - "C:/Projects/zephyrproject/zephyr/CMakeLists.txt:571 (zephyr_cc_option)"
-    directories:
-      source: "C:/Projects/zephyrproject/build/CMakeFiles/CMakeScratch/TryCompile-6w3bbu"
-      binary: "C:/Projects/zephyrproject/build/CMakeFiles/CMakeScratch/TryCompile-6w3bbu"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Projects/zephyrproject/zephyr/cmake/modules"
-    buildResult:
-      variable: "check_fmacro_prefix_map_C__Projects_zephyrproject_template_zephyr_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem__c__zephyr_sdk_zephyr_zephyr_sdk_0_17_3_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__zephyr_sdk_zephyr_zephyr_sdk_0_17_3_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Projects/zephyrproject/build/CMakeFiles/CMakeScratch/TryCompile-6w3bbu'
-        
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_9141c
-        [1/2] C:\\zephyr-sdk\\zephyr\\zephyr-sdk-0.17.3\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_fmacro_prefix_map_C__Projects_zephyrproject_template_zephyr_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem__c__zephyr_sdk_zephyr_zephyr_sdk_0_17_3_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__zephyr_sdk_zephyr_zephyr_sdk_0_17_3_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "c:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fmacro-prefix-map=C:/Projects/zephyrproject/template_zephyr=CMAKE_SOURCE_DIR -o CMakeFiles/cmTC_9141c.dir/src.c.obj -c C:/Projects/zephyrproject/build/CMakeFiles/CMakeScratch/TryCompile-6w3bbu/src.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\zephyr-sdk\\zephyr\\zephyr-sdk-0.17.3\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_9141c.dir/src.c.obj -o cmTC_9141c   && cd ."
-        
-      exitCode: 0
   -
     kind: "find-v1"
     backtrace:
