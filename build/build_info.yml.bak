@@ -1,5 +1,5 @@
 west:
-  command: C:\Users\Cheye\AppData\Local\Programs\Python\Python311\Scripts\west build
-    -b nucleo_h723zg template_zephyr -p
+  command: C:\Projects\zephyrproject\.venv\Scripts\west build -b nucleo_h723zg template_zephyr
+    --pristine
   topdir: C:\Projects\zephyrproject
   version: 1.4.0

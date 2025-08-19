@@ -279,21 +279,21 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "python3.11_d"
+      - "python3.13_d"
       - "python3_d"
       - "python_d"
     candidate_directories:
-      - "C:/Users/Cheye/AppData/Local/Programs/Python/Python311/"
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
     searched_directories:
-      - "C:/Users/Cheye/AppData/Local/Programs/Python/Python311/python3.11_d.com"
-      - "C:/Users/Cheye/AppData/Local/Programs/Python/Python311/python3.11_d.exe"
-      - "C:/Users/Cheye/AppData/Local/Programs/Python/Python311/python3.11_d"
-      - "C:/Users/Cheye/AppData/Local/Programs/Python/Python311/python3_d.com"
-      - "C:/Users/Cheye/AppData/Local/Programs/Python/Python311/python3_d.exe"
-      - "C:/Users/Cheye/AppData/Local/Programs/Python/Python311/python3_d"
-      - "C:/Users/Cheye/AppData/Local/Programs/Python/Python311/python_d.com"
-      - "C:/Users/Cheye/AppData/Local/Programs/Python/Python311/python_d.exe"
-      - "C:/Users/Cheye/AppData/Local/Programs/Python/Python311/python_d"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3.13_d.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3.13_d.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3.13_d"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3_d.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3_d.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3_d"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python_d.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python_d.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python_d"
     found: false
     search_context:
       ENV{PATH}:
