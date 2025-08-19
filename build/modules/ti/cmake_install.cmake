@@ -34,7 +34,7 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump.exe")
+  set(CMAKE_OBJDUMP "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

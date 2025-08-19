@@ -50,7 +50,7 @@ cmake:
      - 'C:/Projects/zephyrproject/template_zephyr/prj.conf'
   toolchain:
     name: 'zephyr'
-    path: 'C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3'
+    path: 'C:/zephyr-sdk-0.17.3'
   zephyr:
     version: '4.2.99'
     zephyr-base: 'C:/Projects/zephyrproject/zephyr'

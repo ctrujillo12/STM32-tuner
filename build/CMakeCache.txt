@@ -60,24 +60,24 @@ CCACHE_FOUND:FILEPATH=CCACHE_FOUND-NOTFOUND
 CCACHE_PROGRAM:FILEPATH=CCACHE_PROGRAM-NOTFOUND
 
 //Path to a program.
-CMAKE_ADDR2LINE:FILEPATH=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-addr2line.exe
+CMAKE_ADDR2LINE:FILEPATH=C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-addr2line.exe
 
 //Path to a program.
-CMAKE_AR:FILEPATH=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar.exe
+CMAKE_AR:FILEPATH=C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar.exe
 
 //Path to a program.
-CMAKE_AS:FILEPATH=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-as.exe
+CMAKE_AS:FILEPATH=C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-as.exe
 
 //ASM compiler
-CMAKE_ASM_COMPILER:FILEPATH=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe
+CMAKE_ASM_COMPILER:FILEPATH=C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_ASM_COMPILER_AR:FILEPATH=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.exe
+CMAKE_ASM_COMPILER_AR:FILEPATH=C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.exe
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_ASM_COMPILER_RANLIB:FILEPATH=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.exe
+CMAKE_ASM_COMPILER_RANLIB:FILEPATH=C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.exe
 
 //Flags used by the ASM compiler during all build types.
 CMAKE_ASM_FLAGS:STRING=
@@ -99,15 +99,15 @@ CMAKE_ASM_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 CMAKE_BUILD_TYPE:STRING=
 
 //CXX compiler
-CMAKE_CXX_COMPILER:STRING=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe
+CMAKE_CXX_COMPILER:STRING=C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_AR:FILEPATH=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.exe
+CMAKE_CXX_COMPILER_AR:FILEPATH=C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.exe
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_RANLIB:FILEPATH=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.exe
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.exe
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -125,15 +125,15 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //C compiler
-CMAKE_C_COMPILER:STRING=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe
+CMAKE_C_COMPILER:STRING=C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_AR:FILEPATH=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.exe
+CMAKE_C_COMPILER_AR:FILEPATH=C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.exe
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_RANLIB:FILEPATH=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.exe
+CMAKE_C_COMPILER_RANLIB:FILEPATH=C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.exe
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -179,13 +179,13 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Projects/zephyrproject/build/CMakeFiles/pkgRedirects
 
 //Path to a program.
-CMAKE_GCOV:FILEPATH=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcov.exe
+CMAKE_GCOV:FILEPATH=C:/zephyr-sdk-0.17.3/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcov.exe
 
 //Path to a program.
-CMAKE_GDB:FILEPATH=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe
+CMAKE_GDB:FILEPATH=C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe
 
 //Path to a program.
-CMAKE_GDB_NO_PY:FILEPATH=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe
+CMAKE_GDB_NO_PY:FILEPATH=C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe
 
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Zephyr-Kernel
@@ -214,13 +214,13 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_NM:FILEPATH=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-nm.exe
+CMAKE_NM:FILEPATH=C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-nm.exe
 
 //Path to a program.
-CMAKE_OBJCOPY:FILEPATH=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objcopy.exe
+CMAKE_OBJCOPY:FILEPATH=C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objcopy.exe
 
 //Path to a program.
-CMAKE_OBJDUMP:FILEPATH=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump.exe
+CMAKE_OBJDUMP:FILEPATH=C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump.exe
 
 //Value Computed by CMake
 CMAKE_PROJECT_COMPAT_VERSION:STATIC=
@@ -250,10 +250,10 @@ CMAKE_PROJECT_VERSION_PATCH:STATIC=
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 
 //Path to a program.
-CMAKE_RANLIB:FILEPATH=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib.exe
+CMAKE_RANLIB:FILEPATH=C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib.exe
 
 //Path to a program.
-CMAKE_READELF:FILEPATH=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-readelf.exe
+CMAKE_READELF:FILEPATH=C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-readelf.exe
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
@@ -303,7 +303,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_STRIP:FILEPATH=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-strip.exe
+CMAKE_STRIP:FILEPATH=C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-strip.exe
 
 //Path to a program.
 CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
@@ -403,7 +403,7 @@ Zephyr-Kernel_IS_TOP_LEVEL:STATIC=ON
 Zephyr-Kernel_SOURCE_DIR:STATIC=C:/Projects/zephyrproject/template_zephyr
 
 //The directory containing a CMake configuration file for Zephyr-sdk.
-Zephyr-sdk_DIR:PATH=C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/cmake
+Zephyr-sdk_DIR:PATH=C:/zephyr-sdk-0.17.3/cmake
 
 //The directory containing a CMake configuration file for ZephyrAppConfiguration.
 ZephyrAppConfiguration_DIR:PATH=ZephyrAppConfiguration_DIR-NOTFOUND
@@ -591,7 +591,7 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding GnuLd
-FIND_PACKAGE_MESSAGE_DETAILS_GnuLd:INTERNAL=[c:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/arm-zephyr-eabi/bin/ld.bfd.exe][v2.38()]
+FIND_PACKAGE_MESSAGE_DETAILS_GnuLd:INTERNAL=[c:/zephyr-sdk-0.17.3/arm-zephyr-eabi/arm-zephyr-eabi/bin/ld.bfd.exe][v2.38()]
 //Details about finding Python3
 FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[C:/Users/Cheye/AppData/Local/Programs/Python/Python311/python.exe][found components: Interpreter ][v3.11.5(3.10)]
 //Zephyr hardware model version
@@ -605,7 +605,7 @@ SOC_LINKER_SCRIPT:INTERNAL=C:/Projects/zephyrproject/zephyr/include/zephyr/arch/
 //West
 WEST:INTERNAL=C:/Users/Cheye/AppData/Local/Programs/Python/Python311/python.exe;-m;west
 //Cached environment variable ZEPHYR_SDK_INSTALL_DIR
-ZEPHYR_SDK_INSTALL_DIR:INTERNAL=C:\zephyr-sdk\zephyr\zephyr-sdk-0.17.3
+ZEPHYR_SDK_INSTALL_DIR:INTERNAL=C:\zephyr-sdk-0.17.3
 //Compiler reason failure
 _Python3_Compiler_REASON_FAILURE:INTERNAL=
 //Development reason failure

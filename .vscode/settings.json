@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "C:/Projects/zephyrproject/template_zephyr",
+    "files.associations": {
+        "gpio.h": "c"
+    }
+}

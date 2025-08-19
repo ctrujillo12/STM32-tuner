@@ -18,6 +18,7 @@ int main(void)
 
     while (1) {
         gpio_pin_toggle_dt(&led);
+        printk("Hello from Nucleo!\n");
         k_msleep(SLEEP_TIME_MS);
     }
 }

@@ -58,6 +58,22 @@ events:
         mode: "config"
         reason: "no_exist"
       -
+        path: "C:/Projects/zephyrproject/.venv/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Projects/zephyrproject/.venv/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Projects/zephyrproject/.vscode/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Projects/zephyrproject/.vscode/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
         path: "C:/Projects/zephyrproject/.west/ZephyrBuildConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -124,6 +140,7 @@ events:
     found: null
     search_context:
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -151,6 +168,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find_package-v1"
     backtrace:
@@ -210,6 +228,7 @@ events:
     found: null
     search_context:
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -237,6 +256,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -277,6 +297,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -304,6 +325,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -326,6 +348,7 @@ events:
     names:
       - "ccache"
     candidate_directories:
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
       - "C:/Program Files/Git/cmd/"
@@ -347,7 +370,11 @@ events:
       - "C:/Users/Cheye/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Cheye/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Users/Cheye/AppData/Roaming/npm/"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "C:/Projects/zephyrproject/.venv/Scripts/ccache.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/ccache.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/ccache"
       - "C:/Python313/Scripts/ccache.com"
       - "C:/Python313/Scripts/ccache.exe"
       - "C:/Python313/Scripts/ccache"
@@ -411,9 +438,13 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/ccache.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/ccache.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/ccache"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/ccache.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/ccache.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/ccache"
     found: false
     search_context:
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -441,6 +472,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find_package-v1"
     backtrace:
@@ -475,7 +507,7 @@ events:
       policy_scope: true
       bypass_provider: false
       hints:
-        - "C:\\zephyr-sdk\\zephyr\\zephyr-sdk-0.17.3"
+        - "C:\\zephyr-sdk-0.17.3"
       names:
         - "Zephyr-sdk"
       path_suffixes:
@@ -500,19 +532,20 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/Zephyr-sdkConfig.cmake"
+        path: "C:/zephyr-sdk-0.17.3/Zephyr-sdkConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/zephyr-sdk-config.cmake"
+        path: "C:/zephyr-sdk-0.17.3/zephyr-sdk-config.cmake"
         mode: "config"
         reason: "no_exist"
     found:
-      path: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/cmake/Zephyr-sdkConfig.cmake"
+      path: "C:/zephyr-sdk-0.17.3/cmake/Zephyr-sdkConfig.cmake"
       mode: "config"
       version: "0.17.3"
     search_context:
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -540,6 +573,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -563,9 +597,10 @@ events:
     names:
       - "gperf"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
       - "C:/Program Files/Git/cmd/"
@@ -587,16 +622,20 @@ events:
       - "C:/Users/Cheye/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Cheye/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Users/Cheye/AppData/Roaming/npm/"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/gperf.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/gperf.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/gperf"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/gperf.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/gperf.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/gperf"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/gperf.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/gperf.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/gperf"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/gperf.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/gperf.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/gperf"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/gperf.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/gperf.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/gperf"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/gperf.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/gperf.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/gperf"
+      - "C:/Projects/zephyrproject/.venv/Scripts/gperf.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/gperf.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/gperf"
       - "C:/Python313/Scripts/gperf.com"
       - "C:/Python313/Scripts/gperf.exe"
       - "C:/Python313/Scripts/gperf"
@@ -660,11 +699,15 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/gperf.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/gperf.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/gperf"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/gperf.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/gperf.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/gperf"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -692,6 +735,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -715,9 +759,10 @@ events:
     names:
       - "openocd"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
       - "C:/Program Files/Git/cmd/"
@@ -739,16 +784,20 @@ events:
       - "C:/Users/Cheye/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Cheye/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Users/Cheye/AppData/Roaming/npm/"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/openocd.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/openocd.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/openocd"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/openocd.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/openocd.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/openocd"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/openocd.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/openocd.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/openocd"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/openocd.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/openocd.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/openocd"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/openocd.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/openocd.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/openocd"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/openocd.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/openocd.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/openocd"
+      - "C:/Projects/zephyrproject/.venv/Scripts/openocd.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/openocd.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/openocd"
       - "C:/Python313/Scripts/openocd.com"
       - "C:/Python313/Scripts/openocd.exe"
       - "C:/Python313/Scripts/openocd"
@@ -812,11 +861,15 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/openocd.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/openocd.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/openocd"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/openocd.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/openocd.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/openocd"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -844,6 +897,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -867,9 +921,10 @@ events:
     names:
       - "bossac"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
       - "C:/Program Files/Git/cmd/"
@@ -891,16 +946,20 @@ events:
       - "C:/Users/Cheye/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Cheye/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Users/Cheye/AppData/Roaming/npm/"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/bossac.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/bossac.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/bossac"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/bossac.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/bossac.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/bossac"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bossac.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bossac.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bossac"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/bossac.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/bossac.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/bossac"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/bossac.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/bossac.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/bossac"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bossac.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bossac.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bossac"
+      - "C:/Projects/zephyrproject/.venv/Scripts/bossac.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/bossac.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/bossac"
       - "C:/Python313/Scripts/bossac.com"
       - "C:/Python313/Scripts/bossac.exe"
       - "C:/Python313/Scripts/bossac"
@@ -964,11 +1023,15 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/bossac.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/bossac.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/bossac"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/bossac.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/bossac.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/bossac"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -996,6 +1059,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1020,10 +1084,11 @@ events:
       - "imgtool.py"
       - "imgtool"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
       - "C:/Projects/zephyrproject/bootloader/mcuboot/scripts/"
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
       - "C:/Program Files/Git/cmd/"
@@ -1045,32 +1110,34 @@ events:
       - "C:/Users/Cheye/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Cheye/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Users/Cheye/AppData/Roaming/npm/"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/imgtool.py.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/imgtool.py.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/imgtool.py"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/imgtool.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/imgtool.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/imgtool"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/imgtool.py.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/imgtool.py.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/imgtool.py"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/imgtool.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/imgtool.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/imgtool"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/imgtool.py.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/imgtool.py.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/imgtool.py"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/imgtool.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/imgtool.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/imgtool"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/imgtool.py.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/imgtool.py.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/imgtool.py"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/imgtool.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/imgtool.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/imgtool"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/imgtool.py.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/imgtool.py.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/imgtool.py"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/imgtool.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/imgtool.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/imgtool"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/imgtool.py.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/imgtool.py.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/imgtool.py"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/imgtool.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/imgtool.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/imgtool"
       - "C:/Projects/zephyrproject/bootloader/mcuboot/scripts/imgtool.py.com"
       - "C:/Projects/zephyrproject/bootloader/mcuboot/scripts/imgtool.py.exe"
     found: "C:/Projects/zephyrproject/bootloader/mcuboot/scripts/imgtool.py"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -1098,6 +1165,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1121,9 +1189,10 @@ events:
     names:
       - "winpty"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
       - "C:/Program Files/Git/cmd/"
@@ -1145,16 +1214,20 @@ events:
       - "C:/Users/Cheye/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Cheye/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Users/Cheye/AppData/Roaming/npm/"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/winpty.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/winpty.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/winpty"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/winpty.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/winpty.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/winpty"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/winpty.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/winpty.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/winpty"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/winpty.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/winpty.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/winpty"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/winpty.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/winpty.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/winpty"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/winpty.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/winpty.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/winpty"
+      - "C:/Projects/zephyrproject/.venv/Scripts/winpty.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/winpty.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/winpty"
       - "C:/Python313/Scripts/winpty.com"
       - "C:/Python313/Scripts/winpty.exe"
       - "C:/Python313/Scripts/winpty"
@@ -1218,11 +1291,15 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/winpty.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/winpty.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/winpty"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/winpty.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/winpty.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/winpty"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -1250,6 +1327,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1272,16 +1350,17 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcc"
+      - "C:/zephyr-sdk-0.17.3/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcc"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/"
+      - "C:/zephyr-sdk-0.17.3/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcc.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcc.exe"
+      - "C:/zephyr-sdk-0.17.3/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcc.com"
+    found: "C:/zephyr-sdk-0.17.3/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcc.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -1309,6 +1388,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1331,16 +1411,17 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcov"
+      - "C:/zephyr-sdk-0.17.3/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcov"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/"
+      - "C:/zephyr-sdk-0.17.3/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcov.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcov.exe"
+      - "C:/zephyr-sdk-0.17.3/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcov.com"
+    found: "C:/zephyr-sdk-0.17.3/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcov.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -1368,6 +1449,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1391,9 +1473,10 @@ events:
     names:
       - "dtc"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
       - "C:/Program Files/Git/cmd/"
@@ -1415,16 +1498,20 @@ events:
       - "C:/Users/Cheye/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Cheye/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Users/Cheye/AppData/Roaming/npm/"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/dtc.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/dtc.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/dtc"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/dtc.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/dtc.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/dtc"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/dtc.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/dtc.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/dtc"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/dtc.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/dtc.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/dtc"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/dtc.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/dtc.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/dtc"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/dtc.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/dtc.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/dtc"
+      - "C:/Projects/zephyrproject/.venv/Scripts/dtc.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/dtc.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/dtc"
       - "C:/Python313/Scripts/dtc.com"
       - "C:/Python313/Scripts/dtc.exe"
       - "C:/Python313/Scripts/dtc"
@@ -1488,11 +1575,15 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/dtc.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/dtc.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/dtc"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/dtc.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/dtc.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/dtc"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -1520,6 +1611,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1542,16 +1634,17 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/"
+      - "C:/zephyr-sdk-0.17.3/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.com"
+    found: "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -1579,6 +1672,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1601,16 +1695,17 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/"
+      - "C:/zephyr-sdk-0.17.3/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe.com"
+    found: "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -1638,6 +1733,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1660,16 +1756,17 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objcopy"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objcopy"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/"
+      - "C:/zephyr-sdk-0.17.3/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objcopy.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objcopy.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objcopy.com"
+    found: "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objcopy.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -1697,6 +1794,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1719,16 +1817,17 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/"
+      - "C:/zephyr-sdk-0.17.3/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump.com"
+    found: "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -1756,6 +1855,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1778,16 +1878,17 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-as"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-as"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/"
+      - "C:/zephyr-sdk-0.17.3/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-as.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-as.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-as.com"
+    found: "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-as.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -1815,6 +1916,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1837,16 +1939,17 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/"
+      - "C:/zephyr-sdk-0.17.3/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar.com"
+    found: "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -1874,6 +1977,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1896,16 +2000,17 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/"
+      - "C:/zephyr-sdk-0.17.3/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib.com"
+    found: "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -1933,6 +2038,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1955,16 +2061,17 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-readelf"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-readelf"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/"
+      - "C:/zephyr-sdk-0.17.3/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-readelf.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-readelf.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-readelf.com"
+    found: "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-readelf.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -1992,6 +2099,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2014,16 +2122,17 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-nm"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-nm"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/"
+      - "C:/zephyr-sdk-0.17.3/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-nm.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-nm.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-nm.com"
+    found: "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-nm.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -2051,6 +2160,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2073,16 +2183,17 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-strip"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-strip"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/"
+      - "C:/zephyr-sdk-0.17.3/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-strip.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-strip.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-strip.com"
+    found: "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-strip.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -2110,6 +2221,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2132,16 +2244,17 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb-py"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb-py"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/"
+      - "C:/zephyr-sdk-0.17.3/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb-py.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb-py.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb-py.com"
+    found: "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb-py.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -2169,6 +2282,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2191,16 +2305,17 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/"
+      - "C:/zephyr-sdk-0.17.3/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.com"
+    found: "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -2228,6 +2343,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -2265,9 +2381,10 @@ events:
       - "ninja"
       - "samu"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
       - "C:/Program Files/Git/cmd/"
@@ -2289,34 +2406,44 @@ events:
       - "C:/Users/Cheye/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Cheye/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Users/Cheye/AppData/Roaming/npm/"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/ninja-build.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/ninja-build.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/ninja-build"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/ninja.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/ninja.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/ninja"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/samu.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/samu.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/samu"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/ninja-build.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/ninja-build.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/ninja-build"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/ninja.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/ninja.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/ninja"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/samu.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/samu.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/samu"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/ninja-build.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/ninja-build.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/ninja-build"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/ninja.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/ninja.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/ninja"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/samu.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/samu.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/samu"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/ninja-build.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/ninja-build.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/ninja-build"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/ninja.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/ninja.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/ninja"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/samu.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/samu.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/samu"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/ninja-build.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/ninja-build.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/ninja-build"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/ninja.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/ninja.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/ninja"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/samu.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/samu.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/samu"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/ninja-build.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/ninja-build.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/ninja-build"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/ninja.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/ninja.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/ninja"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/samu.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/samu.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/samu"
+      - "C:/Projects/zephyrproject/.venv/Scripts/ninja-build.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/ninja-build.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/ninja-build"
+      - "C:/Projects/zephyrproject/.venv/Scripts/ninja.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/ninja.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/ninja"
+      - "C:/Projects/zephyrproject/.venv/Scripts/samu.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/samu.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/samu"
       - "C:/Python313/Scripts/ninja-build.com"
       - "C:/Python313/Scripts/ninja-build.exe"
       - "C:/Python313/Scripts/ninja-build"
@@ -2432,8 +2559,9 @@ events:
     found: "C:/ProgramData/chocolatey/bin/ninja.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -2461,6 +2589,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2493,8 +2622,9 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -2522,6 +2652,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -2535,13 +2666,13 @@ events:
       - "CMakeLists.txt:3 (find_package)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
+      Compiler: C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
       Build flags: 
       Id flags:  
       
       The output was:
       1
-      c:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld.exe: c:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
+      c:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld.exe: c:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
       exit.c:(.text.exit+0x34): undefined reference to `_exit'
       collect2.exe: error: ld returned 1 exit status
       
@@ -2578,8 +2709,9 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -2607,6 +2739,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -2620,7 +2753,7 @@ events:
       - "CMakeLists.txt:3 (find_package)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
+      Compiler: C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
       Build flags: 
       Id flags: -c 
       
@@ -2658,7 +2791,8 @@ events:
       - "arm-zephyr-eabi-dlltool"
       - "dlltool"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/"
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
       - "C:/Program Files/Git/cmd/"
@@ -2680,10 +2814,14 @@ events:
       - "C:/Users/Cheye/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Cheye/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Users/Cheye/AppData/Roaming/npm/"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-dlltool.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-dlltool.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-dlltool"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-dlltool.com"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-dlltool.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-dlltool"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-dlltool.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-dlltool.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-dlltool"
       - "C:/Python313/Scripts/arm-zephyr-eabi-dlltool.com"
       - "C:/Python313/Scripts/arm-zephyr-eabi-dlltool.exe"
       - "C:/Python313/Scripts/arm-zephyr-eabi-dlltool"
@@ -2747,9 +2885,15 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-dlltool.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-dlltool.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-dlltool"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/dlltool.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/dlltool.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/dlltool"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-dlltool.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-dlltool.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-dlltool"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/dlltool.com"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/dlltool.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/dlltool"
+      - "C:/Projects/zephyrproject/.venv/Scripts/dlltool.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/dlltool.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/dlltool"
       - "C:/Python313/Scripts/dlltool.com"
       - "C:/Python313/Scripts/dlltool.exe"
       - "C:/Python313/Scripts/dlltool"
@@ -2813,11 +2957,15 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/dlltool.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/dlltool.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/dlltool"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/dlltool.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/dlltool.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/dlltool"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -2845,6 +2993,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2870,7 +3019,8 @@ events:
       - "arm-zephyr-eabi-addr2line"
       - "addr2line"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/"
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
       - "C:/Program Files/Git/cmd/"
@@ -2892,13 +3042,15 @@ events:
       - "C:/Users/Cheye/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Cheye/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Users/Cheye/AppData/Roaming/npm/"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-addr2line.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-addr2line.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-addr2line.com"
+    found: "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-addr2line.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -2926,6 +3078,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2951,7 +3104,8 @@ events:
       - "arm-zephyr-eabi-tapi"
       - "tapi"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/"
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
       - "C:/Program Files/Git/cmd/"
@@ -2973,10 +3127,14 @@ events:
       - "C:/Users/Cheye/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Cheye/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Users/Cheye/AppData/Roaming/npm/"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-tapi.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-tapi.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-tapi"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-tapi.com"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-tapi.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-tapi"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-tapi.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-tapi.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-tapi"
       - "C:/Python313/Scripts/arm-zephyr-eabi-tapi.com"
       - "C:/Python313/Scripts/arm-zephyr-eabi-tapi.exe"
       - "C:/Python313/Scripts/arm-zephyr-eabi-tapi"
@@ -3040,9 +3198,15 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-tapi.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-tapi.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-tapi"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/tapi.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/tapi.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/tapi"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-tapi.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-tapi.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-tapi"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/tapi.com"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/tapi.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/tapi"
+      - "C:/Projects/zephyrproject/.venv/Scripts/tapi.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/tapi.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/tapi"
       - "C:/Python313/Scripts/tapi.com"
       - "C:/Python313/Scripts/tapi.exe"
       - "C:/Python313/Scripts/tapi"
@@ -3106,11 +3270,15 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/tapi.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/tapi.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/tapi"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/tapi.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/tapi.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/tapi"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -3138,6 +3306,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -3165,7 +3334,8 @@ events:
       - "arm-zephyr-eabi-gcc-ar12"
       - "arm-zephyr-eabi-gcc-ar"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/"
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
       - "C:/Program Files/Git/cmd/"
@@ -3187,10 +3357,14 @@ events:
       - "C:/Users/Cheye/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Cheye/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Users/Cheye/AppData/Roaming/npm/"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.2.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.2.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.2.com"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.2.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar-12.2.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar-12.2.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar-12.2"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar-12.2.com"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar-12.2.exe"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar-12.2"
@@ -3254,9 +3428,15 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar-12.2.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar-12.2.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar-12.2"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-12.2.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-12.2.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-12.2"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.com"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar-12.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar-12.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar-12"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar-12.com"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar-12.exe"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar-12"
@@ -3320,9 +3500,15 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar-12.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar-12.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar-12"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar12.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar12.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar12"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-12.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-12.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-12"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar12.com"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar12.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar12"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar12.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar12.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar12"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar12.com"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar12.exe"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar12"
@@ -3386,12 +3572,16 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar12.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar12.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar12"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar12.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar12.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar12"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.com"
+    found: "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -3419,6 +3609,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -3446,7 +3637,8 @@ events:
       - "arm-zephyr-eabi-gcc-ranlib12"
       - "arm-zephyr-eabi-gcc-ranlib"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/"
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
       - "C:/Program Files/Git/cmd/"
@@ -3468,10 +3660,14 @@ events:
       - "C:/Users/Cheye/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Cheye/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Users/Cheye/AppData/Roaming/npm/"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.2.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.2.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.2.com"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.2.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib-12.2.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib-12.2.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib-12.2"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib-12.2.com"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib-12.2.exe"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib-12.2"
@@ -3535,9 +3731,15 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib-12.2.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib-12.2.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib-12.2"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-12.2.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-12.2.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.com"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib-12.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib-12.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib-12"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib-12.com"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib-12.exe"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib-12"
@@ -3601,9 +3803,15 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib-12.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib-12.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib-12"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib12.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib12.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-12.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-12.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-12"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib12.com"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib12.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib12.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib12.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib12"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib12.com"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib12.exe"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib12"
@@ -3667,12 +3875,16 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib12.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib12.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib12"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib12.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib12.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib12"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.com"
+    found: "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -3700,6 +3912,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -3732,8 +3945,9 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -3761,6 +3975,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -3774,13 +3989,13 @@ events:
       - "CMakeLists.txt:3 (find_package)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
+      Compiler: C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
       Build flags: 
       Id flags:  
       
       The output was:
       1
-      c:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld.exe: c:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
+      c:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld.exe: c:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
       exit.c:(.text.exit+0x34): undefined reference to `_exit'
       collect2.exe: error: ld returned 1 exit status
       
@@ -3817,8 +4032,9 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -3846,6 +4062,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -3859,7 +4076,7 @@ events:
       - "CMakeLists.txt:3 (find_package)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
+      Compiler: C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
       Build flags: 
       Id flags: -c 
       
@@ -3899,7 +4116,8 @@ events:
       - "arm-zephyr-eabi-gcc-ar12"
       - "arm-zephyr-eabi-gcc-ar"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/"
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
       - "C:/Program Files/Git/cmd/"
@@ -3921,10 +4139,14 @@ events:
       - "C:/Users/Cheye/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Cheye/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Users/Cheye/AppData/Roaming/npm/"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.2.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.2.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.2.com"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.2.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.2"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar-12.2.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar-12.2.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar-12.2"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar-12.2.com"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar-12.2.exe"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar-12.2"
@@ -3988,9 +4210,15 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar-12.2.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar-12.2.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar-12.2"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-12.2.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-12.2.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-12.2"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.com"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-12"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar-12.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar-12.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar-12"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar-12.com"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar-12.exe"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar-12"
@@ -4054,9 +4282,15 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar-12.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar-12.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar-12"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar12.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar12.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar12"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-12.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-12.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-12"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar12.com"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar12.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar12"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar12.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar12.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar12"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar12.com"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar12.exe"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar12"
@@ -4120,12 +4354,16 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar12.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar12.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar12"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar12.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar12.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar12"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.com"
+    found: "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -4153,6 +4391,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -4180,7 +4419,8 @@ events:
       - "arm-zephyr-eabi-gcc-ranlib12"
       - "arm-zephyr-eabi-gcc-ranlib"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/"
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
       - "C:/Program Files/Git/cmd/"
@@ -4202,10 +4442,14 @@ events:
       - "C:/Users/Cheye/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Cheye/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Users/Cheye/AppData/Roaming/npm/"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.2.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.2.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.2.com"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.2.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib-12.2.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib-12.2.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib-12.2"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib-12.2.com"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib-12.2.exe"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib-12.2"
@@ -4269,9 +4513,15 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib-12.2.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib-12.2.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib-12.2"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-12.2.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-12.2.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-12.2"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.com"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-12"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib-12.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib-12.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib-12"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib-12.com"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib-12.exe"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib-12"
@@ -4335,9 +4585,15 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib-12.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib-12.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib-12"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib12.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib12.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-12.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-12.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-12"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib12.com"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib12.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib12"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib12.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib12.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib12"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib12.com"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib12.exe"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib12"
@@ -4401,12 +4657,16 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib12.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib12.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib12"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib12.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib12.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib12"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.com"
+    found: "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -4434,6 +4694,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -4456,16 +4717,17 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe.com"
+    found: "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -4493,6 +4755,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
@@ -4540,7 +4803,8 @@ events:
       - "arm-zephyr-eabi-gcc-ar"
       - "arm-zephyr-eabi-gcc-ar"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/"
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
       - "C:/Program Files/Git/cmd/"
@@ -4562,11 +4826,15 @@ events:
       - "C:/Users/Cheye/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Cheye/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Users/Cheye/AppData/Roaming/npm/"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "/bin/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-.com"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar-.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar-.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar-"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar-.com"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar-.exe"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar-"
@@ -4630,12 +4898,18 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar-.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar-.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar-"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-"
       - "/bin/arm-zephyr-eabi-gcc-ar-.com"
       - "/bin/arm-zephyr-eabi-gcc-ar-.exe"
       - "/bin/arm-zephyr-eabi-gcc-ar-"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-.com"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar-.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar-.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ar-"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar-.com"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar-.exe"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ar-"
@@ -4699,15 +4973,19 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar-.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar-.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ar-"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-"
       - "/bin/arm-zephyr-eabi-gcc-ar-.com"
       - "/bin/arm-zephyr-eabi-gcc-ar-.exe"
       - "/bin/arm-zephyr-eabi-gcc-ar-"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.com"
+    found: "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -4735,6 +5013,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
@@ -4765,7 +5044,8 @@ events:
       - "arm-zephyr-eabi-gcc-ranlib"
       - "arm-zephyr-eabi-gcc-ranlib"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/"
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
       - "C:/Program Files/Git/cmd/"
@@ -4787,11 +5067,15 @@ events:
       - "C:/Users/Cheye/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Cheye/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Users/Cheye/AppData/Roaming/npm/"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "/bin/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-.com"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib-.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib-.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib-"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib-.com"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib-.exe"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib-"
@@ -4855,12 +5139,18 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib-.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib-.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib-"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-"
       - "/bin/arm-zephyr-eabi-gcc-ranlib-.com"
       - "/bin/arm-zephyr-eabi-gcc-ranlib-.exe"
       - "/bin/arm-zephyr-eabi-gcc-ranlib-"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-.com"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib-.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib-.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/arm-zephyr-eabi-gcc-ranlib-"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib-.com"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib-.exe"
       - "C:/Python313/Scripts/arm-zephyr-eabi-gcc-ranlib-"
@@ -4924,15 +5214,19 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib-.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib-.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/arm-zephyr-eabi-gcc-ranlib-"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-"
       - "/bin/arm-zephyr-eabi-gcc-ranlib-.com"
       - "/bin/arm-zephyr-eabi-gcc-ranlib-.exe"
       - "/bin/arm-zephyr-eabi-gcc-ranlib-"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.com"
-    found: "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.exe"
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.com"
+    found: "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.exe"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -4960,6 +5254,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
@@ -4981,9 +5276,10 @@ events:
     names:
       - "ccache"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
       - "C:/Program Files/Git/cmd/"
@@ -5005,17 +5301,21 @@ events:
       - "C:/Users/Cheye/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Cheye/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Users/Cheye/AppData/Roaming/npm/"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "/bin/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/ccache.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/ccache.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/ccache"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/ccache.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/ccache.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/ccache"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/ccache.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/ccache.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/ccache"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/ccache.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/ccache.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/ccache"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/ccache.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/ccache.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/ccache"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/ccache.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/ccache.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/ccache"
+      - "C:/Projects/zephyrproject/.venv/Scripts/ccache.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/ccache.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/ccache"
       - "C:/Python313/Scripts/ccache.com"
       - "C:/Python313/Scripts/ccache.exe"
       - "C:/Python313/Scripts/ccache"
@@ -5079,14 +5379,18 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/ccache.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/ccache.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/ccache"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/ccache.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/ccache.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/ccache"
       - "/bin/ccache.com"
       - "/bin/ccache.exe"
       - "/bin/ccache"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -5114,6 +5418,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
@@ -5137,9 +5442,10 @@ events:
       - "gen_kobject_list"
       - "gen_kobject_list.py"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
       - "C:/Program Files/Git/cmd/"
@@ -5161,18 +5467,22 @@ events:
       - "C:/Users/Cheye/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Cheye/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Users/Cheye/AppData/Roaming/npm/"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "/bin/"
       - "C:/Projects/zephyrproject/zephyr/scripts/build/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/gen_kobject_list.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/gen_kobject_list.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/gen_kobject_list"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/gen_kobject_list.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/gen_kobject_list.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/gen_kobject_list"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/gen_kobject_list.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/gen_kobject_list.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/gen_kobject_list"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/gen_kobject_list.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/gen_kobject_list.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/gen_kobject_list"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/gen_kobject_list.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/gen_kobject_list.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/gen_kobject_list"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/gen_kobject_list.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/gen_kobject_list.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/gen_kobject_list"
+      - "C:/Projects/zephyrproject/.venv/Scripts/gen_kobject_list.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/gen_kobject_list.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/gen_kobject_list"
       - "C:/Python313/Scripts/gen_kobject_list.com"
       - "C:/Python313/Scripts/gen_kobject_list.exe"
       - "C:/Python313/Scripts/gen_kobject_list"
@@ -5236,21 +5546,27 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/gen_kobject_list.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/gen_kobject_list.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/gen_kobject_list"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/gen_kobject_list.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/gen_kobject_list.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/gen_kobject_list"
       - "/bin/gen_kobject_list.com"
       - "/bin/gen_kobject_list.exe"
       - "/bin/gen_kobject_list"
       - "C:/Projects/zephyrproject/zephyr/scripts/build/gen_kobject_list.com"
       - "C:/Projects/zephyrproject/zephyr/scripts/build/gen_kobject_list.exe"
       - "C:/Projects/zephyrproject/zephyr/scripts/build/gen_kobject_list"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/gen_kobject_list.py.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/gen_kobject_list.py.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/gen_kobject_list.py"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/gen_kobject_list.py.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/gen_kobject_list.py.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/gen_kobject_list.py"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/gen_kobject_list.py.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/gen_kobject_list.py.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/gen_kobject_list.py"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/gen_kobject_list.py.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/gen_kobject_list.py.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/gen_kobject_list.py"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/gen_kobject_list.py.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/gen_kobject_list.py.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/gen_kobject_list.py"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/gen_kobject_list.py.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/gen_kobject_list.py.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/gen_kobject_list.py"
+      - "C:/Projects/zephyrproject/.venv/Scripts/gen_kobject_list.py.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/gen_kobject_list.py.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/gen_kobject_list.py"
       - "C:/Python313/Scripts/gen_kobject_list.py.com"
       - "C:/Python313/Scripts/gen_kobject_list.py.exe"
       - "C:/Python313/Scripts/gen_kobject_list.py"
@@ -5314,6 +5630,9 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/gen_kobject_list.py.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/gen_kobject_list.py.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/gen_kobject_list.py"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/gen_kobject_list.py.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/gen_kobject_list.py.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/gen_kobject_list.py"
       - "/bin/gen_kobject_list.py.com"
       - "/bin/gen_kobject_list.py.exe"
       - "/bin/gen_kobject_list.py"
@@ -5322,8 +5641,9 @@ events:
     found: "C:/Projects/zephyrproject/zephyr/scripts/build/gen_kobject_list.py"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -5351,6 +5671,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
@@ -5372,9 +5693,10 @@ events:
     names:
       - "puncover"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
       - "C:/Program Files/Git/cmd/"
@@ -5396,17 +5718,21 @@ events:
       - "C:/Users/Cheye/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Cheye/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Users/Cheye/AppData/Roaming/npm/"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "/bin/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/puncover.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/puncover.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/puncover"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/puncover.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/puncover.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/puncover"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/puncover.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/puncover.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/puncover"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/puncover.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/puncover.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/puncover"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/puncover.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/puncover.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/puncover"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/puncover.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/puncover.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/puncover"
+      - "C:/Projects/zephyrproject/.venv/Scripts/puncover.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/puncover.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/puncover"
       - "C:/Python313/Scripts/puncover.com"
       - "C:/Python313/Scripts/puncover.exe"
       - "C:/Python313/Scripts/puncover"
@@ -5470,14 +5796,18 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/puncover.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/puncover.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/puncover"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/puncover.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/puncover.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/puncover"
       - "/bin/puncover.com"
       - "/bin/puncover.exe"
       - "/bin/puncover"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -5505,6 +5835,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
@@ -5526,9 +5857,10 @@ events:
     names:
       - "pahole"
     candidate_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/"
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
       - "C:/Python313/Scripts/"
       - "C:/Python313/"
       - "C:/Program Files/Git/cmd/"
@@ -5550,17 +5882,21 @@ events:
       - "C:/Users/Cheye/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Cheye/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/Users/Cheye/AppData/Roaming/npm/"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "/bin/"
     searched_directories:
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/pahole.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/pahole.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/pahole"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/pahole.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/pahole.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/pahole"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/pahole.com"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/pahole.exe"
-      - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/pahole"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/pahole.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/pahole.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/bin/pahole"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/pahole.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/pahole.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/sbin/pahole"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/pahole.com"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/pahole.exe"
+      - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr/pahole"
+      - "C:/Projects/zephyrproject/.venv/Scripts/pahole.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/pahole.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/pahole"
       - "C:/Python313/Scripts/pahole.com"
       - "C:/Python313/Scripts/pahole.exe"
       - "C:/Python313/Scripts/pahole"
@@ -5624,14 +5960,18 @@ events:
       - "C:/Users/Cheye/AppData/Roaming/npm/pahole.com"
       - "C:/Users/Cheye/AppData/Roaming/npm/pahole.exe"
       - "C:/Users/Cheye/AppData/Roaming/npm/pahole"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/pahole.com"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/pahole.exe"
+      - "C:/Users/Cheye/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/pahole"
       - "/bin/pahole.com"
       - "/bin/pahole.exe"
       - "/bin/pahole"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -5659,6 +5999,7 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
@@ -5745,8 +6086,9 @@ events:
       version: "4.2.99"
     search_context:
       CMAKE_PREFIX_PATH:
-        - "C:/zephyr-sdk/zephyr/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
         - "C:\\Python313\\Scripts\\"
         - "C:\\Python313\\"
         - "C:\\Program Files\\Git\\cmd"
@@ -5774,5 +6116,6 @@ events:
         - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
         - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
 ...

@@ -347,9 +347,9 @@
 				phandle = < 0x12 >; /* in template_zephyr\boards\nucleo_h723zg.overlay:12 */
 			};
 
-			/* node '/soc/pin-controller@58020000/sai1_sd_a_pc1' defined in modules\hal\stm32\dts\st\h7\stm32h723zgtx-pinctrl.dtsi:2817 */
-			sai1_sd_a_pc1: sai1_sd_a_pc1 {
-				pinmux = < 0x426 >; /* in modules\hal\stm32\dts\st\h7\stm32h723zgtx-pinctrl.dtsi:2818 */
+			/* node '/soc/pin-controller@58020000/sai1_sd_a_pb2' defined in modules\hal\stm32\dts\st\h7\stm32h723zgtx-pinctrl.dtsi:2809 */
+			sai1_sd_a_pb2: sai1_sd_a_pb2 {
+				pinmux = < 0x246 >; /* in modules\hal\stm32\dts\st\h7\stm32h723zgtx-pinctrl.dtsi:2810 */
 				phandle = < 0x13 >; /* in template_zephyr\boards\nucleo_h723zg.overlay:12 */
 			};
 
@@ -484,8 +484,8 @@
 			interrupts = < 0x27 0x0 >;                     /* in zephyr\dts\arm\st\h7\stm32h7.dtsi:310 */
 			pinctrl-0 = < &usart3_tx_pd8 &usart3_rx_pd9 >; /* in zephyr\boards\st\nucleo_h723zg\nucleo_h723zg.dts:134 */
 			pinctrl-names = "default";                     /* in zephyr\boards\st\nucleo_h723zg\nucleo_h723zg.dts:135 */
-			current-speed = < 0x1c200 >;                   /* in zephyr\boards\st\nucleo_h723zg\nucleo_h723zg.dts:136 */
-			status = "okay";                               /* in zephyr\boards\st\nucleo_h723zg\nucleo_h723zg.dts:137 */
+			status = "okay";                               /* in template_zephyr\boards\nucleo_h723zg.overlay:21 */
+			current-speed = < 0x1c200 >;                   /* in template_zephyr\boards\nucleo_h723zg.overlay:22 */
 		};
 
 		/* node '/soc/serial@40004c00' defined in zephyr\dts\arm\st\h7\stm32h7.dtsi:313 */
@@ -734,7 +734,7 @@
 			         < &rcc 0x9 0x1cc0050 >;                          /* in zephyr\dts\arm\st\h7\stm32h7.dtsi:490 */
 			interrupts = < 0x23 0x3 >;                                /* in zephyr\dts\arm\st\h7\stm32h7.dtsi:495 */
 			status = "okay";                                          /* in template_zephyr\boards\nucleo_h723zg.overlay:10 */
-			pinctrl-0 = < &i2s1_ck_pa5 &i2s1_ws_pa4 &sai1_sd_a_pc1 >; /* in template_zephyr\boards\nucleo_h723zg.overlay:12 */
+			pinctrl-0 = < &i2s1_ck_pa5 &i2s1_ws_pa4 &sai1_sd_a_pb2 >; /* in template_zephyr\boards\nucleo_h723zg.overlay:12 */
 			pinctrl-names = "default";                                /* in template_zephyr\boards\nucleo_h723zg.overlay:13 */
 			dmas = < &dmamux1 0x0 0x26 0x0 >,
 			       < &dmamux1 0x1 0x25 0x0 >;                         /* in template_zephyr\boards\nucleo_h723zg.overlay:15 */

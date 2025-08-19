@@ -3903,4 +3903,4 @@ C:\Projects\zephyrproject\zephyr\subsys\usb\host\Kconfig
 C:\Projects\zephyrproject\zephyr\subsys\usb\host\Kconfig.usbip
 C:\Projects\zephyrproject\zephyr\subsys\usb\usb_c\Kconfig
 C:\Projects\zephyrproject\zephyr\subsys\zbus\Kconfig
-C:\zephyr-sdk\zephyr\zephyr-sdk-0.17.3\cmake\zephyr\Kconfig
+C:\zephyr-sdk-0.17.3\cmake\zephyr\Kconfig
