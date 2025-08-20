@@ -145,86 +145,6 @@
     ],
     [
         [
-            "int sys_cache_data_flush_range",
-            "void *addr, size_t size"
-        ],
-        "cache.h",
-        true
-    ],
-    [
-        [
-            "int sys_cache_data_invd_range",
-            "void *addr, size_t size"
-        ],
-        "cache.h",
-        true
-    ],
-    [
-        [
-            "int sys_cache_data_flush_and_invd_range",
-            "void *addr, size_t size"
-        ],
-        "cache.h",
-        true
-    ],
-    [
-        [
-            "int dma_start",
-            "const struct device *dev, uint32_t channel"
-        ],
-        "dma.h",
-        true
-    ],
-    [
-        [
-            "int dma_stop",
-            "const struct device *dev, uint32_t channel"
-        ],
-        "dma.h",
-        true
-    ],
-    [
-        [
-            "int dma_suspend",
-            "const struct device *dev, uint32_t channel"
-        ],
-        "dma.h",
-        true
-    ],
-    [
-        [
-            "int dma_resume",
-            "const struct device *dev, uint32_t channel"
-        ],
-        "dma.h",
-        true
-    ],
-    [
-        [
-            "int dma_request_channel",
-            "const struct device *dev,\n\t\t\t\t  void *filter_param"
-        ],
-        "dma.h",
-        true
-    ],
-    [
-        [
-            "void dma_release_channel",
-            "const struct device *dev,\n\t\t\t\t   uint32_t channel"
-        ],
-        "dma.h",
-        true
-    ],
-    [
-        [
-            "int dma_chan_filter",
-            "const struct device *dev,\n\t\t\t\t   int channel, void *filter_param"
-        ],
-        "dma.h",
-        true
-    ],
-    [
-        [
             "int gpio_pin_interrupt_configure",
             "const struct device *port,\n\t\t\t\t\t   gpio_pin_t pin,\n\t\t\t\t\t   gpio_flags_t flags"
         ],
@@ -301,38 +221,6 @@
             "const struct device *dev"
         ],
         "gpio.h",
-        true
-    ],
-    [
-        [
-            "int i2s_configure",
-            "const struct device *dev, enum i2s_dir dir,\n\t\t\t    const struct i2s_config *cfg"
-        ],
-        "i2s.h",
-        true
-    ],
-    [
-        [
-            "int i2s_buf_read",
-            "const struct device *dev, void *buf, size_t *size"
-        ],
-        "i2s.h",
-        true
-    ],
-    [
-        [
-            "int i2s_buf_write",
-            "const struct device *dev, void *buf, size_t size"
-        ],
-        "i2s.h",
-        true
-    ],
-    [
-        [
-            "int i2s_trigger",
-            "const struct device *dev, enum i2s_dir dir,\n\t\t\t  enum i2s_trigger_cmd cmd"
-        ],
-        "i2s.h",
         true
     ],
     [
@@ -1425,6 +1313,30 @@
     ],
     [
         [
+            "int sys_cache_data_flush_range",
+            "void *addr, size_t size"
+        ],
+        "cache.h",
+        false
+    ],
+    [
+        [
+            "int sys_cache_data_invd_range",
+            "void *addr, size_t size"
+        ],
+        "cache.h",
+        false
+    ],
+    [
+        [
+            "int sys_cache_data_flush_and_invd_range",
+            "void *addr, size_t size"
+        ],
+        "cache.h",
+        false
+    ],
+    [
+        [
             "void user_fault",
             "unsigned int reason"
         ],
@@ -2137,6 +2049,62 @@
     ],
     [
         [
+            "int dma_start",
+            "const struct device *dev, uint32_t channel"
+        ],
+        "dma.h",
+        false
+    ],
+    [
+        [
+            "int dma_stop",
+            "const struct device *dev, uint32_t channel"
+        ],
+        "dma.h",
+        false
+    ],
+    [
+        [
+            "int dma_suspend",
+            "const struct device *dev, uint32_t channel"
+        ],
+        "dma.h",
+        false
+    ],
+    [
+        [
+            "int dma_resume",
+            "const struct device *dev, uint32_t channel"
+        ],
+        "dma.h",
+        false
+    ],
+    [
+        [
+            "int dma_request_channel",
+            "const struct device *dev,\n\t\t\t\t  void *filter_param"
+        ],
+        "dma.h",
+        false
+    ],
+    [
+        [
+            "void dma_release_channel",
+            "const struct device *dev,\n\t\t\t\t   uint32_t channel"
+        ],
+        "dma.h",
+        false
+    ],
+    [
+        [
+            "int dma_chan_filter",
+            "const struct device *dev,\n\t\t\t\t   int channel, void *filter_param"
+        ],
+        "dma.h",
+        false
+    ],
+    [
+        [
             "int eeprom_read",
             "const struct device *dev, off_t offset, void *data,\n\t\t\t  size_t len"
         ],
@@ -2717,6 +2685,38 @@
             "const struct device *dev"
         ],
         "i2c.h",
+        false
+    ],
+    [
+        [
+            "int i2s_configure",
+            "const struct device *dev, enum i2s_dir dir,\n\t\t\t    const struct i2s_config *cfg"
+        ],
+        "i2s.h",
+        false
+    ],
+    [
+        [
+            "int i2s_buf_read",
+            "const struct device *dev, void *buf, size_t *size"
+        ],
+        "i2s.h",
+        false
+    ],
+    [
+        [
+            "int i2s_buf_write",
+            "const struct device *dev, void *buf, size_t size"
+        ],
+        "i2s.h",
+        false
+    ],
+    [
+        [
+            "int i2s_trigger",
+            "const struct device *dev, enum i2s_dir dir,\n\t\t\t  enum i2s_trigger_cmd cmd"
+        ],
+        "i2s.h",
         false
     ],
     [

@@ -1,5 +1,61 @@
+cmake:
+  application:
+    configuration-dir: 'C:/Projects/zephyrproject/template_zephyr'
+    source-dir: 'C:/Projects/zephyrproject/template_zephyr'
+  board:
+    name: 'nucleo_h723zg'
+    path:
+     - 'C:/Projects/zephyrproject/zephyr/boards/st/nucleo_h723zg'
+    qualifiers: 'stm32h723xx'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - 'C:/Projects/zephyrproject/zephyr/dts/bindings'
+    files:
+     - 'C:/Projects/zephyrproject/zephyr/boards/st/nucleo_h723zg/nucleo_h723zg.dts'
+     - 'C:/Projects/zephyrproject/template_zephyr/boards/nucleo_h723zg.overlay'
+    include-dirs:
+     - 'C:/Projects/zephyrproject/modules/hal/ambiq/dts'
+     - 'C:/Projects/zephyrproject/modules/hal/atmel/include'
+     - 'C:/Projects/zephyrproject/modules/hal/bouffalolab/include'
+     - 'C:/Projects/zephyrproject/modules/hal/bouffalolab/include/zephyr'
+     - 'C:/Projects/zephyrproject/modules/hal/gigadevice/include'
+     - 'C:/Projects/zephyrproject/modules/hal/microchip/include'
+     - 'C:/Projects/zephyrproject/modules/hal/microchip/dts'
+     - 'C:/Projects/zephyrproject/modules/hal/nuvoton/dts'
+     - 'C:/Projects/zephyrproject/modules/hal/nxp/dts'
+     - 'C:/Projects/zephyrproject/modules/hal/stm32/dts'
+     - 'C:/Projects/zephyrproject/modules/hal/ti/dts'
+     - 'C:/Projects/zephyrproject/zephyr/include'
+     - 'C:/Projects/zephyrproject/zephyr/include/zephyr'
+     - 'C:/Projects/zephyrproject/zephyr/dts/common'
+     - 'C:/Projects/zephyrproject/zephyr/dts/vendor'
+     - 'C:/Projects/zephyrproject/zephyr/dts/rx'
+     - 'C:/Projects/zephyrproject/zephyr/dts/x86'
+     - 'C:/Projects/zephyrproject/zephyr/dts/xtensa'
+     - 'C:/Projects/zephyrproject/zephyr/dts/sparc'
+     - 'C:/Projects/zephyrproject/zephyr/dts/riscv'
+     - 'C:/Projects/zephyrproject/zephyr/dts/posix'
+     - 'C:/Projects/zephyrproject/zephyr/dts/arm64'
+     - 'C:/Projects/zephyrproject/zephyr/dts/arm'
+     - 'C:/Projects/zephyrproject/zephyr/dts/arc'
+     - 'C:/Projects/zephyrproject/zephyr/dts'
+    user-files:
+     - 'C:/Projects/zephyrproject/template_zephyr/boards/nucleo_h723zg.overlay'
+  kconfig:
+    files:
+     - 'C:/Projects/zephyrproject/zephyr/boards/st/nucleo_h723zg/nucleo_h723zg_defconfig'
+     - 'C:/Projects/zephyrproject/template_zephyr/prj.conf'
+    user-files:
+     - 'C:/Projects/zephyrproject/template_zephyr/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: 'C:/zephyr-sdk-0.17.3'
+  zephyr:
+    version: '4.2.99'
+    zephyr-base: 'C:/Projects/zephyrproject/zephyr'
+version: '0.1.0'
 west:
-  command: C:\Projects\zephyrproject\.venv\Scripts\west build -b nucleo_h723zg template_zephyr
-    --pristine
-  topdir: C:\Projects\zephyrproject
-  version: 1.4.0
+  command: 'C:\Projects\zephyrproject\.venv\Scripts\west build -b nucleo_h723zg template_zephyr --pristine'
+  topdir: 'C:\Projects\zephyrproject'
+  version: '1.4.0'

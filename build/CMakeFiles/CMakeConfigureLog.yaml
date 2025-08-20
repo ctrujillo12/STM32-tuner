@@ -6119,3 +6119,155 @@ events:
         - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
 ...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython/Support.cmake:2430 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython3.cmake:656 (include)"
+      - "C:/Projects/zephyrproject/zephyr/cmake/modules/python.cmake:41 (find_package)"
+      - "C:/Projects/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:131 (include)"
+      - "C:/Projects/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Projects/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:97 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.14_d"
+      - "python3.13_d"
+      - "python3.12_d"
+      - "python3.11_d"
+      - "python3.10_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Projects/zephyrproject/.venv/Scripts/"
+    searched_directories:
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3.14_d.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3.14_d.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3.14_d"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3.13_d.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3.13_d.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3.13_d"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3.12_d.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3.12_d.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3.12_d"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3.11_d.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3.11_d.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3.11_d"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3.10_d.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3.10_d.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3.10_d"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3_d.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3_d.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python3_d"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python_d.com"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python_d.exe"
+      - "C:/Projects/zephyrproject/.venv/Scripts/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Java\\jdk1.8.0_261\\bin"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Projects\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Cheye\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Projects/zephyrproject/zephyr/cmake/compiler/gcc/target.cmake:8 (find_program)"
+      - "C:/Projects/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:103 (include)"
+      - "C:/Projects/zephyrproject/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "C:/Projects/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "C:/Projects/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Projects/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:97 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
+    candidate_directories:
+      - "C:/zephyr-sdk-0.17.3/"
+    searched_directories:
+      - "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.com"
+    found: "C:/zephyr-sdk-0.17.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/zephyr-sdk-0.17.3/sysroots/AMD64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "C:\\Projects\\zephyrproject\\.venv\\Scripts"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Java\\jdk1.8.0_261\\bin"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Projects\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Cheye\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Cheye\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Cheye\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\Users\\Cheye\\AppData\\Roaming\\npm"
+        - "c:\\Users\\Cheye\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
+...

@@ -40,9 +40,7 @@ case K_OBJ_RTIO_IODEV: ret = "rtio_iodev"; break;
 case K_OBJ_SENSOR_DECODER_API: ret = "sensor_decoder_api"; break;
 #endif
 /* Driver subsystems */
-case K_OBJ_DRIVER_DMA: ret = "dma driver"; break;
 case K_OBJ_DRIVER_GPIO: ret = "gpio driver"; break;
-case K_OBJ_DRIVER_I2S: ret = "i2s driver"; break;
 case K_OBJ_DRIVER_RESET: ret = "reset driver"; break;
 case K_OBJ_DRIVER_SPI: ret = "spi driver"; break;
 case K_OBJ_DRIVER_SHARED_IRQ: ret = "shared_irq driver"; break;
@@ -61,6 +59,7 @@ case K_OBJ_DRIVER_COUNTER: ret = "counter driver"; break;
 case K_OBJ_DRIVER_DAC: ret = "dac driver"; break;
 case K_OBJ_DRIVER_DAI: ret = "dai driver"; break;
 case K_OBJ_DRIVER_DISPLAY: ret = "display driver"; break;
+case K_OBJ_DRIVER_DMA: ret = "dma driver"; break;
 case K_OBJ_DRIVER_EDAC: ret = "edac driver"; break;
 case K_OBJ_DRIVER_EEPROM: ret = "eeprom driver"; break;
 case K_OBJ_DRIVER_EMUL_BBRAM: ret = "emul_bbram driver"; break;
@@ -77,6 +76,7 @@ case K_OBJ_DRIVER_HAPTICS: ret = "haptics driver"; break;
 case K_OBJ_DRIVER_HWSPINLOCK: ret = "hwspinlock driver"; break;
 case K_OBJ_DRIVER_I2C: ret = "i2c driver"; break;
 case K_OBJ_DRIVER_I2C_TARGET: ret = "i2c_target driver"; break;
+case K_OBJ_DRIVER_I2S: ret = "i2s driver"; break;
 case K_OBJ_DRIVER_I3C: ret = "i3c driver"; break;
 case K_OBJ_DRIVER_IPM: ret = "ipm driver"; break;
 case K_OBJ_DRIVER_LED: ret = "led driver"; break;

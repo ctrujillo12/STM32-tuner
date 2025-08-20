@@ -8,10 +8,10 @@
 #define I2S_DEV_NODE      DT_NODELABEL(i2s1)
 #define FRAME_CLK_FREQ    16000
 #define BLOCK_SIZE        128      /* bytes */
-#define NUM_RX_BLOCKS     4        /* how many buffers to keep in flight */
+#define NUM_RX_BLOCKS     4        /* number of DMA buffers */
 #define TIMEOUT_MS        1000
 
-/* RX buffer pool (statically allocated), aligned for DMA safety */
+/* RX buffer pool (DMA-safe, aligned) */
 static uint8_t rx_pool[NUM_RX_BLOCKS][BLOCK_SIZE] __aligned(4);
 
 void main(void)
@@ -38,11 +38,9 @@ void main(void)
         return;
     }
 
-    /* --- Pre-queue RX buffers BEFORE START to give DMA valid destinations --- */
+    /* Prequeue empty buffers for DMA to fill */
     for (int i = 0; i < NUM_RX_BLOCKS; i++) {
-        void *blk = rx_pool[i];
-        size_t sz = BLOCK_SIZE;
-        int r = i2s_buf_read(i2s, &blk, &sz);
+        int r = i2s_buf_write(i2s, rx_pool[i], BLOCK_SIZE);
         if (r < 0) {
             printk("Prequeue %d failed: %d\n", i, r);
             return;
@@ -63,7 +61,6 @@ void main(void)
         int ret = i2s_read(i2s, &mem_block, &size);
         if (ret < 0) {
             if (ret == -EAGAIN) {
-                /* no completed buffer yet */
                 k_sleep(K_MSEC(1));
                 continue;
             }
@@ -72,19 +69,17 @@ void main(void)
         }
 
         if (mem_block && size) {
-            /* Process samples (cast to 16-bit) */
+            /* Process samples */
             int16_t *samples = (int16_t *)mem_block;
             int count = size / sizeof(int16_t);
 
-            /* Be careful: printk is slow. Print just a few to prove life. */
+            /* Print first few samples */
             for (int i = 0; i < MIN(count, 8); i++) {
                 printk("%d\n", samples[i]);
             }
 
-            /* Hand the same buffer back to the driver to keep streaming */
-            void *return_blk = mem_block;
-            size_t return_sz = size;
-            int rr = i2s_buf_read(i2s, &return_blk, &return_sz);
+            /* Return buffer back to driver */
+            int rr = i2s_buf_write(i2s, mem_block, size);
             if (rr < 0) {
                 printk("Requeue failed: %d\n", rr);
                 break;
