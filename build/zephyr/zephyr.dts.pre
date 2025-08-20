@@ -6419,7 +6419,7 @@ zephyr_udc0: &usbotg_hs {
 &i2s1 {
     status = "okay";
 
-    pinctrl-0 = <&i2s1_ck_pa5 &i2s1_ws_pa4 &sai1_sd_a_pb2>;
+    pinctrl-0 = <&i2s1_ck_pb3 &i2s1_ws_pa15 &sai1_sd_b_pe3>;
     pinctrl-names = "default";
 
     dmas = <&dmamux1 0 38 0>,
@@ -6430,6 +6430,10 @@ zephyr_udc0: &usbotg_hs {
 &usart3 {
     status = "okay";
     current-speed = <115200>;
+};
+
+&i2c1 {
+ status = "okay";
 };
 # 0 "<command-line>" 2
 # 1 "C:/Projects/zephyrproject/zephyr/misc/empty_file.c"
