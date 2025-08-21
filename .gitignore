@@ -1,0 +1,15 @@
+# Zephyr build artifacts
+build/
+*.elf
+*.hex
+*.bin
+
+# Python virtual environment
+.venv/
+
+# Zephyr west workspace
+.west/
+
+# VSCode / IDE settings
+.vscode/
+*.swp
